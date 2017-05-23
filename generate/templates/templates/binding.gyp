@@ -110,6 +110,12 @@
               "-std=c++0x"
             ]
           }
+        ],[
+          "OS=='linux'", {
+            "ldflags": [
+              "-static-libstdc++"
+            ]
+          }
         ]
       ]
     }
